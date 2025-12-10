@@ -94,6 +94,10 @@ python -m pytest tests/test_login.py -s
 ```bash
 python -m pytest tests/test_login.py::test_valid_login
 ```
+### Run specific test:
+```bash
+pytest --cov=. --cov-report=html
+```
 
 ## Test Structure
 
